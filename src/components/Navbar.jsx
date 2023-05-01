@@ -125,7 +125,7 @@ const Navbar = () => {
               <Image src="./logo.png" maxW={"160px"} ratio={1} />
             </Box>
             <Box display={{ base: "none", md: "block" }}>
-              <HStack spacing={{ base: "2", md: "2", lg: "4" }} height={"80px"}>
+              <HStack spacing={"1"} height={"80px"}>
                 {appConstantService.navItems.map((navItem) => {
                   return (
                     <Link
