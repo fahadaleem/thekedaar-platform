@@ -30,7 +30,7 @@ const Services = () => {
       </Box>
       <Box>
         <Grid
-          maxHeight={{ base: "100%", md: "500px" }}
+          maxHeight={{ base: "100%", lg: "600px", xl: "500px" }}
           templateRows={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
           gap={"4"}
