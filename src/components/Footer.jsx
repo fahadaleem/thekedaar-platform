@@ -67,6 +67,7 @@ const Footer = () => {
               <Heading
                 fontFamily={"'poppins', sans-serif"}
                 fontWeight={"600"}
+                color={"brand.primary"}
                 fontSize={"2xl"}
                 py={1}
               >
