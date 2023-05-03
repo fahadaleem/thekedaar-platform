@@ -33,10 +33,11 @@ const MobileNav = () => {
       w={"100%"}
       left={"0"}
       bg={"white"}
-      top={{ base: "145px" }}
+      zIndex={"40"}
       spacing={"4"}
       boxShadow={"md"}
       position={"absolute"}
+      top={{ base: "145px" }}
       borderTop={"2px solid"}
       borderColor={"brand.primary"}
     >
